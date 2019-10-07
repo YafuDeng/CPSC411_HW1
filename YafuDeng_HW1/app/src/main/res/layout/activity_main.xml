@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="620dp"
+        android:layout_height="330dp"
+        android:background="#000000">
+
+        <GridLayout
+            android:layout_width="20dp"
+            android:layout_height="330dp"
+            android:columnCount="1"
+            android:rowCount="11">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="5"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="8"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="9"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="10"
+                android:background="#A3A5A5">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="11"
+                android:background="#A3A5A5">
+
+            </TextView>
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="330dp">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="1"
+                android:rowCount="11">
+
+                <TextView
+                    android:layout_width="600dp"
+                    android:layout_height="30dp"
+                    android:text="Rules void hello(int hour)"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF">
+
+                </TextView>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:rowCount="2"
+                    android:columnCount="3">
+
+                    <TextView
+                        android:layout_rowWeight="1"
+                        android:layout_rowSpan="2"
+                        android:layout_width="100dp"
+                        android:background="#FFFFFF"
+                        android:text="properties"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:layout_rowWeight="1"
+                        android:background="#FFFFFF"
+                        android:layout_width="200dp"
+                        android:text="name"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:layout_rowWeight="1"
+                        android:background="#FFFFFF"
+                        android:layout_width="300dp"
+                        android:text="Day Hour Classification"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:layout_rowWeight="1"
+                        android:background="#FFFFFF"
+                        android:layout_width="200dp"
+                        android:text="category"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:layout_rowWeight="1"
+                        android:background="#FFFFFF"
+                        android:layout_width="300dp"
+                        android:text="Day and Time"
+                        android:gravity="center">
+                    </TextView>
+
+
+
+                </GridLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="Rule"
+                        android:gravity="center"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="200dp"
+                        android:text="C1"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="A1"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text=""
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="200dp"
+                        android:text="min&#60;&#61;hour &#38;&#38; hour&#60;&#61;max"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="System.out.println(greeting + &#34;, World!&#34;)"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text=""
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="int min"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="int max"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#00FFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="String greeting"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="Rule"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="From"
+                        android:textStyle="bold"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="To"
+                        android:textStyle="bold"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#ffc966"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="String Greeting"
+                        android:textStyle="bold"
+                        android:gravity="start"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="R10"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="0"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="11"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+
+
+                    <TextView
+                        android:background="#ffc966"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="Good Morning"
+                        android:gravity="start"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="R20"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="12"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="17"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#ffc966"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="Good Afternoon"
+                        android:gravity="start"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="R30"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="18"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="21"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#ffc966"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="Good Evening"
+                        android:gravity="start"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="R40"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="22"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#fffb00"
+                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:text="23"
+                        android:gravity="end"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:background="#ffc966"
+                        android:layout_height="30dp"
+                        android:layout_width="300dp"
+                        android:text="Good Night"
+                        android:gravity="start"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+
+            </GridLayout>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+</HorizontalScrollView>
